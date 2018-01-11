@@ -28,9 +28,9 @@ def onQQMessage(bot, contact, member, content):
     # member  : QContact 对象，仅当本消息为 群或讨论组 消息时有效，代表实际发消息的成员
     # content : str 对象，消息内容
     if content == '--version':
-        DEBUG('member:%s'member)
-        DEBUG('contact:%s'contact)
-        DEBUG('content:%s'content)
+        DEBUG('member:%s',member)
+        DEBUG('contact:%s',contact)
+        DEBUG('content:%s',content)
         bot.SendTo(contact, 'QQbot-' + bot.conf.version)
 
 def onInterval(bot):
