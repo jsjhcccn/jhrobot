@@ -105,7 +105,7 @@ rootConf = {
     "qq" : "1261422618",
     "mailAccount" : "",
     "mailAuthCode" : "",
-    "cmdQrcode" : False,
+    "cmdQrcode" : True,
     "debug" : True,
     "restartOnOffline" : False,
     "daemon" : False,

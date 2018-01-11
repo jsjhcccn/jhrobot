@@ -2,7 +2,11 @@ sudo pip install virtualenv
 
 mkdir ~/Py3Venv
 cd ~/Py3Venv
+<<<<<<< HEAD
 virtualenv --python= --no-site-packages qqbot-venv
+=======
+virtualenv --python=python --no-site-packages qqbot-venv
+>>>>>>> 132fa0d2362bb287d307b56149b9fe13ff4b791c
 
 cd qqbot-venv/bin/
 source activate
