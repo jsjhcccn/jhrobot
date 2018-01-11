@@ -16,7 +16,7 @@ Image = None
 
 class QrcodeManager(object):
     def __init__(self, conf):
-        qrcodeId = 1
+        qrcodeId = "1"
         self.qrcodePath = conf.QrcodePath(qrcodeId)
         if conf.httpServerIP:
             self.qrcodeServer = QrcodeServer(
