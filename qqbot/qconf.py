@@ -111,7 +111,7 @@ rootConf = {
     "daemon" : False,
     "startAfterFetch" : False,
     "pluginPath" : "",
-    "plugins" : [],
+    "plugins" : ['qqbot.plugins.schedrestart'],
     "pluginsConf" : {"qqbot.plugins.schedrestart": "13:00"},
 }
 
