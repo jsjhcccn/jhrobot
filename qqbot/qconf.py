@@ -101,10 +101,10 @@ sampleConfStr = '''
 rootConf = {
     "termServerPort" : 8188,
     "httpServerIP" : "116.206.102.235",
-    "httpServerPort" : 8189,
+    "httpServerPort" : 8190,
     "qq" : "1261422618",
     "mailAccount" : "jsjhcc_cn@163.com",
-    "mailAuthCode" : "Js19880320",
+    "mailAuthCode" : "Js19880730",
     "cmdQrcode" : False,
     "debug" : True,
     "restartOnOffline" : False,
