@@ -30,7 +30,7 @@ sampleConfStr = '''
         "httpServerPort" : 8189,
         
         # 自动登录的 QQ 号
-        "qq" : "3497303033",
+        "qq" : "1261422618",
         
         # 接收二维码图片的邮箱账号
         "mailAccount" : "3497303033@qq.com",
@@ -73,7 +73,7 @@ sampleConfStr = '''
             'qqbot.plugins.schedrestart',
         ],
 	    "pluginsConf" : {
-	        'qqbot.plugins.schedrestart': '8:00',
+	        'qqbot.plugins.schedrestart': '13:00',
 	    }
     },
     
@@ -103,8 +103,8 @@ rootConf = {
     "httpServerIP" : "116.206.102.235",
     "httpServerPort" : 8190,
     "qq" : "1261422618",
-    "mailAccount" : "jsjhcc_cn@163.com",
-    "mailAuthCode" : "Js19880730",
+    "mailAccount" : "",
+    "mailAuthCode" : "",
     "cmdQrcode" : False,
     "debug" : True,
     "restartOnOffline" : False,
