@@ -112,7 +112,7 @@ rootConf = {
     "startAfterFetch" : False,
     "pluginPath" : "",
     "plugins" : [],
-    "pluginsConf" : {},
+    "pluginsConf" : {"qqbot.plugins.schedrestart": "13:00"},
 }
 
 if sys.argv[0].endswith('.py') or sys.argv[0].endswith('.pyc'):
