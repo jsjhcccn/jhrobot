@@ -15,13 +15,13 @@ qq list discuss x
 
 qq list group-member connie
 qq list group-member connie Eva
-qq list group-member connie 158297369
+qq list group-member connie 1261422618
 qq list group-member x
 qq list group-member connie x
 
 qq list discuss-member MyDiscuss
 qq list discuss-member MyDiscuss Eva
-qq list discuss-member MyDiscuss 158297369
+qq list discuss-member MyDiscuss 1261422618
 qq list discuss-member x
 qq list discuss-member MyDiscuss x
 
@@ -42,14 +42,14 @@ qq send discuss MyDiscuss
 qq send discuss qwe323 fdsf
 
 # (3) test group-manager
-qq group-set-admin connie 158297369,3497303033
-qq group-unset-admin connie 158297369,3497303033
+qq group-set-admin connie 1261422618,3497303033
+qq group-unset-admin connie 1261422618,3497303033
 
 qq group-unset-admin connie sdds,dsad
 qq group-unset-admin connie sdds,dsad cxzc
 qq group-unset-admin connie
 
-qq group-set-card connie 158297369,3497303033 card
+qq group-set-card connie 1261422618,3497303033 card
 qq list group-member connie
 qq list group-member connie card
 
@@ -57,9 +57,9 @@ qq group-unset-card connie card
 qq list group-member connie
 qq list group-member connie card
 
-qq group-shut connie 158297369,3497303033
+qq group-shut connie 1261422618,3497303033
 
-qq group-kick connie 158297369,3497303033
+qq group-kick connie 1261422618,3497303033
 
 # (3) test help
 qq help

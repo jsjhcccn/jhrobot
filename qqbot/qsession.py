@@ -64,7 +64,7 @@ class QSession(BasicQSession, GroupManagerSession):
 
 if __name__ == '__main__':    
     from qqbot.qconf import QConf
-    conf = QConf(['-q', '158297369'])
+    conf = QConf(['-q', '1261422618'])
     conf.Display()
     session, contactdb = QLogin(conf)
     self = session

@@ -319,6 +319,6 @@ if __name__ == '__main__':
     from qqbot.basicqsession import BasicQSession
     
     self = BasicQSession()
-    conf = QConf(['-q', '158297369'])
+    conf = QConf(['-q', '1261422618'])
     conf.Display()
     self.Login(conf)
